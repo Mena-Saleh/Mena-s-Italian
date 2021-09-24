@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="with = device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Mena's Italian</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header" style ="background-image: linear-gradient(rgba(6, 9, 30, 0.6),rgba(3, 9, 30, 0.8)),url(RestaurantImages/Banner16.jpg);">
+
+    </style>>
+      <nav>
+        <a href="index.html"><img src="RestaurantImages/logo.PNG" alt=""> </a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="index.html#link1">OUR MENU</a></li>
+            <li><a href="Contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+<h1>Contact Us</h1>
+
+    </section>
+<!------ Contact Us Content --------->
+
+<section class="location">
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55251.33564041994!2d31.22344478150088!3d30.059558098588692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1632477982546!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<section class="contact_us">
+
+<div class="row">
+
+  <div class="contact-col">
+
+    <div>
+       <i class="fa fa-home"> </i
+         <span>
+           <h5>
+             Main Branch:
+           </h5>
+           <p>
+              12 El Moez St, Cairo, Egypt.
+           </p>
+         </span>
+    </div>
+    <div>
+       <i class="fa fa-phone"> </i
+         <span>
+           <h5>
+             +20 187 270 3281
+           </h5>
+           <p>
+              We're avaialbe 24/7.
+           </p>
+         </span>
+    </div>
+    <div>
+       <i class="fa fa-envelope"> </i
+         <span>
+           <h5>
+             Info@Mena.com
+           </h5>
+           <p>
+              Send us your questions!
+           </p>
+         </span>
+    </div>
+
+ </div>
+
+  <div class="contact-col">
+<form class="" action="index.html" method="post">
+  <input type="text" placeholder="Enter your name" required>
+  <input type="email" placeholder="Enter your E-mail Address" required>
+  <input type="text" placeholder="Enter your subject" required>
+  <textarea name="name" rows="8" cols="80" placeholder="Message" required></textarea>
+  <button type="submit" class="hero-btn red-btn">Send Message</button>
+</form>
+  </div>
+
+</div>
+
+</section>
+
+
+
+
+
+<!------ Footer ----->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>We are a small Italian restaurant based on Egypt, we rely on high quality ingredients to achieve customer satistfaction,
+   <br>everything we offer is as fresh as possible, we deliver an experience that enlightens all your senses.</p>
+<div class="icons">
+  <a href="https://facebook.com"> <i class="fa fa-facebook"> </i></a>
+   <a href="https://twitter.com"><i class="fa fa-twitter"> </i></a>
+   <a href="https://instagram.com"><i class="fa fa-instagram"> </i></a>
+</div>
+<p>Made with <i class="fa fa-heart-o"> </i> by Mena</p>
+</section>
+
+
+<!----- javascript to toggle menu ------->
+
+    <script type="text/javascript">
+      var navlinks = document.getElementById("navlinks")
+      function showmenu()
+      {
+navlinks.style.right = "0";
+
+      }
+      function hidemenu()
+      {
+navlinks.style.right = "-200px";
+
+      }
+
+
+
+
+
+    </script>
+  </body>
+</html>

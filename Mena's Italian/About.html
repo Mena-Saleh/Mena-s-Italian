@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="with = device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Mena's Italian</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="RestaurantImages/logo.PNG" alt=""> </a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="index.html#link1">OUR MENU</a></li>
+            <li><a href="Contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+<h1>About Us</h1>
+
+    </section>
+
+
+<!-------------About us content--------------------->
+
+<section class="about-us">
+   <div class="row">
+       <div class="about-col">
+         <h1>We're the best Italian Restaurant there is in Egypt.</h1>
+         <p>We are a small restaurant business based in Egypt, we offer high quality gourmet meals at an affordable price, you are guranteed to go out of door a happier man,
+           our goal is to offer you the best of the best food there is out there, and we stand by our mission at all times and at all costs.</p>
+
+           <p>Our business started on 1978, ever since our goal has remained the same, to achieve customer satistfaction, with more than 40 years of experience
+             , we invite you to have a taste of real Italian food, only at Mena's Italian.</p>
+         <a class="hero-btn red-btn"href="#">EXPLORE NOW</a>
+       </div>
+
+       <div class="about-col">
+         <img src="RestaurantImages/About.jpg">
+       </div>
+
+   </div>
+
+</section>
+
+
+<!------ Footer ----->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>We are a small Italian restaurant based on Egypt, we rely on high quality ingredients to achieve customer satistfaction,
+   <br>everything we offer is as fresh as possible, we deliver an experience that enlightens all your senses.</p>
+<div class="icons">
+  <a href="https://facebook.com"> <i class="fa fa-facebook"> </i></a>
+   <a href="https://twitter.com"><i class="fa fa-twitter"> </i></a>
+   <a href="https://instagram.com"><i class="fa fa-instagram"> </i></a>
+</div>
+<p>Made with <i class="fa fa-heart-o"> </i> by Mena</p>
+</section>
+
+
+<!----- javascript to toggle menu ------->
+
+    <script type="text/javascript">
+      var navlinks = document.getElementById("navlinks")
+      function showmenu()
+      {
+navlinks.style.right = "0";
+
+      }
+      function hidemenu()
+      {
+navlinks.style.right = "-200px";
+
+      }
+
+
+
+
+
+    </script>
+  </body>
+</html>
