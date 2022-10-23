@@ -175,7 +175,7 @@ justify-content: space-between;
 .selection-col p{
 font-style: oblique;
 opacity: 0;
-transition: 1s
+transition: 1s;
 color: #fff;
 
 }
@@ -405,7 +405,7 @@ cursor: pointer;
   background: transparent;
   color: #f44336;
 }
-.red-btn hover:{
+.red-btn :hover{
   color: #fff;
 }
 
